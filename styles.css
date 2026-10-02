@@ -1,0 +1,61 @@
+body {
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .police {
+     color: rgb(5, 65, 163);
+    text-transform: uppercase;
+ }
+
+section > p {
+     font-style: italic;
+     color:rgb(116, 58, 3);
+ }
+
+ h2 + p { font-weight: bold;}
+
+ nav ul li a:hover { color: rgb(116, 3, 3);}
+
+ nav ul li {
+     display: inline;
+     padding: 10px;
+    border: 2px solid black;}
+
+ nav a { color:black }
+
+ ul { display: flex;
+      justify-content: space-between;
+    }
+ .tableau, .tableau th, .tableau td {
+    border: 1px solid black;
+}
+
+ #ABOUT {
+    background-color: lightyellow;
+    padding: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 20px;
+}
+
+h1 {
+    color: rgb(5, 65, 163);
+    text-align: center;
+    padding: 20px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(5, 65, 163);
+}
