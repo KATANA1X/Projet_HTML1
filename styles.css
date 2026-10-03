@@ -1,36 +1,51 @@
 body {
-     font-family: 'Roboto', sans-serif;
- }
+    font-family: 'Roboto', sans-serif;
+}
 
- .police {
-     color: rgb(5, 65, 163);
+h1 { border: 5px solid black; }
+
+.police {
+    color: rgb(5, 65, 163);
     text-transform: uppercase;
- }
+}
 
-section > p {
-     font-style: italic;
-     color:rgb(116, 58, 3);
- }
+section>p {
+    font-style: italic;
+    color: rgb(116, 58, 3);
+}
 
- h2 + p { font-weight: bold;}
+h2+p {
+    font-weight: bold;
+}
 
- nav ul li a:hover { color: rgb(116, 3, 3);}
+nav ul li a:hover {
+    color: rgb(116, 3, 3);
+}
 
- nav ul li {
-     display: inline;
-     padding: 10px;
-    border: 2px solid black;}
+nav ul li {
+    display: inline;
+    padding: 10px;
+    border: 2px solid black;
+}
 
- nav a { color:black }
+nav a {
+    color: black
+}
 
- ul { display: flex;
-      justify-content: space-between;
-    }
- .tableau, .tableau th, .tableau td {
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tableau,
+.tableau th,
+.tableau td {
     border: 1px solid black;
 }
 
- #ABOUT {
+#about {
     background-color: lightyellow;
     padding: 20px;
     border: 3px solid rgb(0, 0, 0);
@@ -57,5 +72,12 @@ form {
 
 h3 {
     text-align: center;
+    border: 2px solid blue;
+    padding: auto ;
     color: rgb(5, 65, 163);
+}
+
+
+section ul li a:hover {
+    color: rgb(43, 226, 89)
 }
